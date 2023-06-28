@@ -1,0 +1,37 @@
+.myBtnContainer{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2%;
+}
+.filterDiv {
+    display: flex;
+    flex-direction: column;
+    margin: 2%;
+    display: none;
+}
+.btn{
+    border-radius: 32px;
+    cursor: pointer;
+    font-family: 'Lexend';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: #1EA59A;
+    background: #E0F2F0;
+    margin-right: 4%;
+    white-space: nowrap;
+    padding: 12px 16px;
+}
+.btn:last-child{
+    margin-right: 0px;
+}
+.btn:hover{
+    background-color: #D1FAE5;
+    color: #F2994A;
+    border: 0px;
+}
+/* В класс "show" добавляется к отфильтрованные элементы */
+.show {
+    display: flex;
+}

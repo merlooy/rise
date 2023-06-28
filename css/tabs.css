@@ -1,0 +1,28 @@
+.tabs-nav__item.is-active{
+    background-color: #D1FAE5;
+  }
+  .tab.is-active{
+    display: flex;
+    justify-content: center;
+  }
+  .tabs-nav__item1.is-active{
+    background-image: url(../svg/house-orange.svg);
+    background-repeat: no-repeat;
+    background-position: 15px;
+    border: 0px;
+    color: #F2994A;
+  }
+  .tabs-nav__item2.is-active{
+    background-image: url(../svg/villa-orange.svg);
+    background-repeat: no-repeat;
+    background-position: 15px;
+    border: 0px;
+    color: #F2994A;
+  }
+  .tabs-nav__item3.is-active{
+    background-image: url(../svg/apartment-orange.svg);
+    background-repeat: no-repeat;
+    background-position: 15px;
+    border: 0px;
+    color: #F2994A;
+  }
